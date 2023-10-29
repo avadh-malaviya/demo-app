@@ -1,0 +1,40 @@
+.override-tabs .Polaris-Tabs__TabContainer .Polaris-Tabs__Tab{
+    padding: 25px;
+    background-color: #FFFFFF;
+}
+
+.override-tabs .Polaris-Tabs__TabContainer .Polaris-Tabs__Tab.Polaris-Tabs__Tab--active{
+    background-color: rgb(96 149 243);
+    color: #FFFFFF;
+}
+
+.override-tabs .Polaris-Tabs__Outer .Polaris-Box, .override-tabs .Polaris-Tabs.Polaris-Tabs--fitted {
+    padding: 0;
+    column-gap: 20px;
+}
+
+.color-picker .Polaris-Button {
+    padding: 7px;
+}
+
+.up-down-arrow .Polaris-TextField__Suffix {
+    height: 32px;
+    margin-right: 0px;
+}
+
+.up-down-arrow .btn-arrow {
+    cursor: pointer;
+    width: 23px;
+    display: flex;
+    justify-content: center;
+}
+
+.up-down-arrow .Polaris-TextField__Suffix svg {
+    height: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .color-picker .Polaris-Button {
+        padding: 3px;
+    }
+}
